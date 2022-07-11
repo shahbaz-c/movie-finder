@@ -10,6 +10,7 @@ import { Route, Routes } from 'react-router-dom';
 
 // Components
 import Navbar from './components/nav/Navbar';
+import Footer from './components/nav/Footer';
 import Home from './components/homepage/Home';
 import Watchlist from './components/watchlist/Watchlist';
 import About from './pages/About';
@@ -38,6 +39,8 @@ const App = () => {
 					<Route path='/*' element={<PageNotFound />} />
 				</Routes>
 			</div>
+
+			<Footer />
 		</div>
 	);
 };
