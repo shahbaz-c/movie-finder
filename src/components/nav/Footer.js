@@ -2,12 +2,12 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-		<div className='navbar navbar-expand-md navbar-dark bg-dark'>
-			<h6 className='footer'>
+		<footer className='bg-dark footer'>
+			<h5 className='pt-1'>
 				<span className='footer-color'> Built with React</span> © 2022 Movie
 				Finder
-			</h6>
-		</div>
+			</h5>
+		</footer>
 	);
 };
 
