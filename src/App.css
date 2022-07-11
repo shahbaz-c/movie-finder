@@ -780,9 +780,13 @@ h6 {
 
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Footer Media Queries */
-@media (max-width: 500px) {
-	.footer {
+@media (max-width: 550px) {
+	.footer-text {
 		font-size: 10px;
+	}
+
+	.footer {
+		height: 1.3rem;
 	}
 }
 
