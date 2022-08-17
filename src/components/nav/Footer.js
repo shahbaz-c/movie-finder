@@ -4,8 +4,8 @@ const Footer = () => {
 	return (
 		<footer className='bg-dark footer'>
 			<h5 className='pt-1 footer-text'>
-				<span className='footer-color'> Built with React</span> © 2022 Movie
-				Finder
+				<span className='footer-color'> Built with React</span> &copy;{' '}
+				{new Date().getFullYear()} Movie Finder
 			</h5>
 		</footer>
 	);
