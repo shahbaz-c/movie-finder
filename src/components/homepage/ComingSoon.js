@@ -10,6 +10,7 @@ const ComingSoon = ({ comingSoon }) => {
 				src={`https://image.tmdb.org/t/p/original${poster_path}`}
 				alt={title}
 				className='img-size img-trans'
+				loading='lazy'
 			/>
 		</Link>
 	);
