@@ -12,8 +12,14 @@ const Actor = () => {
 
 	const { id } = useParams();
 
-	const { name, biography, birthday, place_of_birth, profile_path, gender } =
-		actor;
+	const {
+		name,
+		biography,
+		birthday,
+		place_of_birth,
+		profile_path,
+		gender,
+	} = actor;
 
 	useEffect(() => {
 		getActor(id);
@@ -30,6 +36,7 @@ const Actor = () => {
 									src={profileAvatar}
 									alt={name}
 									className='img-fluid movie-card-img'
+									loading='lazy'
 								/>
 							</div>
 							<div className='col-sm-8'>
@@ -51,6 +58,7 @@ const Actor = () => {
 									src={`https://image.tmdb.org/t/p/original${profile_path}`}
 									alt={name}
 									className='img-fluid movie-card-img actor-movie-img'
+									loading='lazy'
 								/>
 							</div>
 

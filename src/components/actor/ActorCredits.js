@@ -46,6 +46,7 @@ const ActorCredits = () => {
 											alt={title}
 											className='img-fluid'
 											title={title}
+											loading='lazy'
 										/>
 									</Link>
 								</div>

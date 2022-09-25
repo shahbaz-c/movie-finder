@@ -118,6 +118,7 @@ const MovieInfo = () => {
 						src={`https://image.tmdb.org/t/p/original${backdrop_path}`}
 						alt={title}
 						className='bg-img position-relative'
+						loading='lazy'
 					/>
 
 					<div className='card movie-card movie-content'>
@@ -127,6 +128,7 @@ const MovieInfo = () => {
 									src={`https://image.tmdb.org/t/p/original${poster_path}`}
 									alt={title}
 									className='img-fluid movie-card-img'
+									loading='lazy'
 								/>
 							</div>
 							<div className='col-md-8'>

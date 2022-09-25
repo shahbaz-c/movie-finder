@@ -36,6 +36,7 @@ const Cast = () => {
 											alt={name}
 											className='img-unavailable'
 											title={name}
+											loading='lazy'
 										/>
 									) : (
 										<img
@@ -43,6 +44,7 @@ const Cast = () => {
 											alt={name}
 											className='img-fluid'
 											title={name}
+											loading='lazy'
 										/>
 									)}
 									<div className='cast-hover'>
