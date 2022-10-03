@@ -74,10 +74,12 @@ const MovieState = ({ children }) => {
 		);
 		const data = await response.json();
 
-		dispatch({
-			type: GET_POPULAR,
-			payload: data.results,
-		});
+		setTimeout(() => {
+			dispatch({
+				type: GET_POPULAR,
+				payload: data.results,
+			});
+		}, 2000);
 	}, []);
 
 	// Top Rated movies
@@ -89,10 +91,12 @@ const MovieState = ({ children }) => {
 		);
 		const data = await response.json();
 
-		dispatch({
-			type: GET_TOPRATED,
-			payload: data.results,
-		});
+		setTimeout(() => {
+			dispatch({
+				type: GET_TOPRATED,
+				payload: data.results,
+			});
+		}, 2000);
 	}, []);
 
 	// Coming Soon movies
@@ -104,10 +108,12 @@ const MovieState = ({ children }) => {
 		);
 		const data = await response.json();
 
-		dispatch({
-			type: GET_COMINGSOON,
-			payload: data.results,
-		});
+		setTimeout(() => {
+			dispatch({
+				type: GET_COMINGSOON,
+				payload: data.results,
+			});
+		}, 2000);
 	}, []);
 
 	// Get Movie Info
