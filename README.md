@@ -12,4 +12,4 @@ FontAwesome was used for icons.
 
 ### `Project URL`
 
-https://movie-finder.shahbazchoudhary.com/
+https://movie-finder.shahbazc.com/
