@@ -14,4 +14,4 @@ FontAwesome was used for icons.
 
 ### `Project URL`
 
-https://movie-finder.shahbazc.com/
+https://react-movie-finder-use-context.netlify.app/
